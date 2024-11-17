@@ -1,0 +1,42 @@
+/* TestPage.css */
+.test-page-container {
+    display: flex;
+    height: 100vh; /* Make the container take up the full height of the viewport */
+  }
+  
+  .left-container {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Take up 100% of the height within the left container */
+  }
+  
+  .right-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Take up 100% of the height within the right container */
+  }
+  
+  .up-part,
+  .middle-part,
+  .down-part {
+    border: 1px solid #ccc;
+    margin: 8px;
+    padding: 16px;
+  }
+  
+  .up-part {
+    flex: 1;
+  }
+  
+  .middle-part {
+    flex: 1;
+  }
+  
+  .down-part {
+    flex: 1;
+  }
+  
+  /* Adjust styles as needed */
+  

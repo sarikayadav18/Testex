@@ -1,0 +1,31 @@
+/* styles.css */
+
+/* Import Open Sans from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+/* Apply styles to your components */
+.question-text-area {
+  font-family: 'Open Sans', sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.question-number,
+.question-type {
+  margin: 0;
+}
+
+.question-text {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}

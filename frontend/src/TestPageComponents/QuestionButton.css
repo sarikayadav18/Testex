@@ -1,0 +1,44 @@
+/* QuestionButton.css */
+
+.question-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Set 5 columns in the grid */
+  gap: 10px;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.grid-cell {
+  box-sizing: border-box;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: grey;
+  color: #333;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.grid-cell.answered {
+  background-color: red;
+  color: white;
+}
+
+.grid-cell.visited {
+  background-color: green;
+  color: white;
+}
+
+.grid-cell.active {
+  background-color: blue;
+  color: white;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .grid-cell {
+    flex-basis: calc(33.33% - 10px);
+    max-width: calc(33.33% - 10px);
+  }
+}

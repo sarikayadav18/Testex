@@ -1,0 +1,58 @@
+/* SolutionPage.css */
+
+/* Solution Page covering the whole page */
+.container {
+    height: 100vh;
+    display: flex;
+  }
+  
+  /* Left side (2/3rd) for question and answer */
+  .left-section {
+    width: 66.66%;
+    padding: 20px;
+  }
+  
+  /* Right side (1/3rd) for the grid */
+  .right-section {
+    width: 33.33%;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Question area styling */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the clickable grid buttons */
+  .question-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    gap: 10px;
+  }
+  
+  .question-button {
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .question-button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Ensure the Solution Question Button Area is in 1/3rd right side */
+  .question-button-area {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,30 @@
+/* AnswerArea.css */
+
+.answer-area {
+    width: 100%;
+  }
+  
+  .answer-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .option-text {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .radio-input,
+  .checkbox-input {
+    margin-left: 10px;
+  }
+  
+  /* Additional styles for checkbox/radio input */
+  .radio-input input,
+  .checkbox-input input {
+    margin-right: 5px;
+  }
+  

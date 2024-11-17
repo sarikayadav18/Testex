@@ -1,0 +1,55 @@
+/* SolutionAnswerArea.css */
+
+.option {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #ccc;
+}
+
+.option.normal {
+  background-color: #fff; /* Normal background color */
+}
+
+.option.green {
+  background-color: #aafca2; /* Green background color */
+}
+
+.option.red {
+  background-color: #fcaaaa; /* Red background color */
+}
+
+.option.yellow {
+  background-color: #f8f8a9; /* Yellow background color */
+}
+
+.answer {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #ccc;
+}
+
+.answer.green {
+  background-color: #aafca2; /* Green background color */
+}
+
+.answer.red {
+  background-color: #fcaaaa; /* Red background color */
+}
+
+.answer.normal {
+  background-color: #fff; /* Normal background color */
+}
+
+.range {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #ccc;
+}
+
+.range.green {
+  background-color: #aafca2; /* Green background color */
+}
+
+.range.normal {
+  background-color: #fff; /* Normal background color */
+}

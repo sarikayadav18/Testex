@@ -1,0 +1,38 @@
+/* StatusArea.css */
+
+.status-area {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  background-color: #f9f9f9; /* Light background color */
+  padding: 20px; /* Increased padding for better spacing */
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.status-count-box {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.answered-box {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+.not-answered-box {
+  background-color: #f44336; /* Red */
+  color: white;
+}
+
+.visited-box {
+  background-color: #ffeb3b; /* Yellow */
+  color: #333;
+}
+
+.not-visited-box {
+  background-color: #e0e0e0; /* Light grey */
+  color: #333;
+}

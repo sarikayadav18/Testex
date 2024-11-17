@@ -1,0 +1,28 @@
+/* QuestionButtonArea.css */
+
+.question-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    gap: 10px;
+  }
+  
+  .question-grid div {
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .question-grid div:hover {
+    background-color: #ddd;
+  }
+  
+  /* Example styling for the active cell */
+  .question-grid div.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
